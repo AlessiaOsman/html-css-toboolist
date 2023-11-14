@@ -11,14 +11,62 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+li{
+    margin-bottom: 10px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
 /*utils*/
 .bg-color-white {
     background-color: #ffffff;
 }
 
+.bg-color-blue{
+    background-color: #0a7bac;
+}
+
+.bg-color-purple{
+    background-color: purple;
+}
+
+.bg-color-green{
+    background-color: green;
+}
+
+.bg-color-orange{
+    background-color: orange;
+}
+
+.bg-color-pink{
+    background-color: pink;
+}
+
+.bg-color-lightgreen{
+    background-color: lightgreen;
+}
+
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.check{
+    border-color: green;
+    color: green;
+}
+
+.cross{
+    border-color: red;
+    color: red;
+}
+
 /*Header*/
 header {
     padding: 10px 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -31,3 +79,73 @@ h1 {
 #logo {
     vertical-align: middle;
 }
+
+/*Main*/
+.list-container{
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.list-button-header{
+    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 2px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.task-button{
+    background-color: #3fb6eb;
+    color: #ffffff;
+    border-color: transparent;
+}
+
+.section-button{
+    color: lightgrey;
+    border-color: lightgrey;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+span{
+    display: inline-block;
+}
+
+.title-arrow{
+    font-size: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.symbol{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.label{
+    margin-left: 10px;
+    border-radius: 40px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+
