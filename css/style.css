@@ -1,0 +1,33 @@
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*generics*/
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*utils*/
+.bg-color-white {
+    background-color: #ffffff;
+}
+
+/*Header*/
+header {
+    padding: 10px 20px;
+}
+
+h1 {
+    display: inline;
+    font-weight: 900;
+    font-size: 2.5rem;
+    vertical-align: middle;
+}
+
+#logo {
+    vertical-align: middle;
+}
