@@ -99,15 +99,17 @@ button{
     border-radius: 10px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    /*ai button potevo dare la classe btn e qui potevo aggiungere pointer: cursor e text decoration: none*/
+    /*dovevo mettere border comune e sotto solo il color*/
 }
 
-.task-button{
+.task-button{ /*button.task-button per dargli più forza*/
     background-color: #3fb6eb;
     color: #ffffff;
     border-color: transparent;
 }
 
-.section-button{
+.section-button{/*button.section-button*/
     color: lightgrey;
     border-color: lightgrey;
     border-style: solid;
@@ -146,7 +148,8 @@ span{
     padding: 8px;
     color: #ffffff;
     font-size: 12px;
-}
+} /*Qui manca vertical align: middle*/
+/*oltre alle classi bg dovevo mettere un background di default*/
 
 
 
